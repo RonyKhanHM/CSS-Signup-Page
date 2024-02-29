@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  background: linear-gradient(to right bottom, #fbdb89, rgb(202, 221, 32), rgb(227, 170, 11));
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+body{
+  font-family: sans-serif;
+  line-height: 1.4;
+  display: flex;
+  /* padding-top: 15%; */
+  padding: 15%;
+}
+
+.conteinar{
+    width: 500px;
+    margin: auto;
+    background-color: white;
+    padding: 30px 40px 50px 50px;
+    box-shadow: rgb(67, 18, 18) 0px 10px 15px, rgb(175, 175, 43) 0px 10px 15px, rgb(179, 40, 40) 0px 10px 15px, rgb(19, 137, 137) 0px 10px 15px;
+}
+
+.form-title{
+  font-size: 25px;
+  font-weight: 600;
+  padding: 15px;
+  text-align: center;
+}
+
+.reg-form{
+  display: grid;
+  /* grid-template-columns: 200px; */
+  width: 100%;
+  row-gap: 15px;
+
+}
+
+label{
+  display: block;
+  margin-bottom: 5px;
+}
+
+input{
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(160, 199, 21);
+}
+
+input:focus{
+  outline: none;
+  box-shadow: rgb(67, 18, 18) 0px 10px 15px, rgb(175, 175, 43) 0px 10px 15px, rgb(179, 40, 40) 0px 10px 15px, rgb(19, 137, 137) 0px 10px 15px;
+}
+
+.btn-form{
+  background-color: #a8ce0f;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  outline: none;
+  font-size: 20px;
+  width: 50%;
+  margin: auto;
+}
